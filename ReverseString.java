@@ -18,4 +18,9 @@ public class ReverseString {
 
         return new String(word);
     }
+
+    public static void main(String [] args){
+        ReverseString reverseString = new ReverseString();
+        System.out.println (reverseString.reverseString("Alankar Jain Vaibhav Jain"));
+    }
 }
