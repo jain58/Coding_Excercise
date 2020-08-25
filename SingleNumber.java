@@ -22,6 +22,7 @@ public class SingleNumber {
     }
     public static void main(String[] args){
         SingleNumber singleNumber = new SingleNumber();
+        // expected results is 19
         int [] nums = {6, 6, 7, 7, 8, 8, 9, 9, 14, 14, 19, 5, 5};
         System.out.println(singleNumber.singleNumber(nums));
     }
