@@ -20,7 +20,7 @@ public class RemoveDuplicatesFromArray {
 
     public static void main(String[] args){
         RemoveDuplicatesFromArray removeDuplicatesFromArray = new RemoveDuplicatesFromArray();
-        int[] nums = {1,1, 2,2,3,4,5,6,7,7};
+        int[] nums = {1,1, 2,2,3,4,5,5,6,7,7};
         System.out.println(removeDuplicatesFromArray.removeDuplicates(nums));
         for (int i =0; i<nums.length; i++) {
             System.out.print(nums[i]+", ");
